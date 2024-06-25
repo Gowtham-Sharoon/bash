@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Before clear"
+echo "Before cache clear"
 free -h
 
 #To clear the buff/cache on Linux
