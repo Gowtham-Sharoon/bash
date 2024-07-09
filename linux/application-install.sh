@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#Update the OS
+sudo apt-get update
+sudo dnf  update
+
+
 # Function to install PHP on Ubuntu
 install_php_ubuntu() {
     read -p "Enter PHP version to install (e.g., 8.1): " php_version
