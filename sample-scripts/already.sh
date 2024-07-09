@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This script helps to stop the already running script file based on the file name which we give
+
 # Check if a filename argument is provided
 if [ $# -eq 0 ]; then
     echo "Usage: $0 <script_name>"
